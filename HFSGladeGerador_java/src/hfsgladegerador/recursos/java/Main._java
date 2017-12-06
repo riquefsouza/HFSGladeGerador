@@ -1,0 +1,17 @@
+package <pacoteProjeto>;
+
+import org.gnome.gtk.Gtk;
+import <pacoteProjeto>.gui.<classePrincipal>;
+
+public class <nomeProjeto>
+{
+	public static void main(String args[])
+	{
+		Gtk.init(args);
+
+		<classePrincipal> <objPrincipal> = new <classePrincipal>();
+		<objPrincipal>.show();
+		Gtk.main();
+	}
+}
+

@@ -1,0 +1,12 @@
+	public <classeStore> <objStore>(){
+        DataColumn[] dadosColuna = new DataColumn[] {
+        	<tiposStore>
+        };
+                        
+		<classeStore> <objStore> = new <classeStore>(dadosColuna);
+		TreeIter iter = <objStore>.appendRow();
+		<StoreAddValores>
+		
+		return <objStore>;
+	}
+	
